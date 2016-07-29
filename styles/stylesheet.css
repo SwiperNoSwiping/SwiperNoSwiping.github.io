@@ -1,0 +1,42 @@
+.bg-inverse {
+	color: #eceeef;
+	background-color: #373a3c;
+	margin-bottom: 0;
+}
+
+.jumbotron {
+	background-color: white;
+	background-image: url(../images/LennyFace.gif);
+	height: 400px;
+}
+
+.navbar-brand {
+	color: white;
+	font-size: 22px;
+	font-family: 'Comic Sans MS';
+}
+
+.navbar-brand:hover {
+	color: white;
+}
+
+.navbar-nav .nav-item {
+	float: left;
+}
+
+nav ul li a {
+	color: #33cc33;
+}
+
+.nav-link:hover {
+	background-color: white !important; 
+	color: #33cc33;
+}
+
+.navbar-toggle {
+	border-color: white;
+}
+
+.icon-bar {
+	background-color: white;
+}

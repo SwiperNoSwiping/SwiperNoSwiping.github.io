@@ -1,13 +1,98 @@
-<!DOCTYPE html> 
-<html lang="en"> 
+<!DOCTYPE html>
+<html>
+
 <head>
-    <meta charset="UTC=8">
-    <title> Hazel's Website </title>         
+	<title> Dat (Boi) Meme </title>
+	<link rel="stylesheet" href="styles/bootstrap.min.css">
+	<link rel="stylesheet" href="styles/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="styles/stylesheet.css">
 </head>
+
 <body>
-    <div class="container">
-        <h1> yay we did it</h1>
-    </div>
+	<nav class="navbar navbar-static-top navbar-dark bg-inverse"> 
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expand="true" aria-control="navbar">
+					<span class="sr-only"> Toggle navigation </span>
+					<span class="icon-bar"> </span>
+					<span class="icon-bar"> </span>
+					<span class="icon-bar"> </span>
+				</button>
+				<a href="" class="navbar-brand"> Memelord Version 2.Wow </a>
+			</div>
+			<div id="navbar" class="navbar-collapse collapse in" aria-expanded="true">
+			<ul class="nav navbar-nav">
+				<li> 
+					<a class="nav-link" href=""> Home </a> 
+				</li>
+				<li> 
+					<a class="nav-link" href="about.html"> About </a> 
+				</li>
+				<li> 
+					<a class="nav-link" href="#contact"> Contact </a> 
+				</li>
+				<li> 
+					<a class="nav-link" href="blog-index.html"> Blog </a> 
+				</li>
+				<li>
+					<a class="nav-link" href="videos.html"> Videos </a> 
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+<div class="jumbotron">
+</div>
+
+<div class="container">
+	<div class="row">
+		<h1 style="text-align: center;"> Please donate to help the Saviour <em> Dat boi </em> save the Internet from forced memes! </h1>
+		<p style="text-align:center;"> A Pepe meme signed by the very own Lord Pepe himself will be sent to donors! </p>
+	</div>
+	<div class="col-md-12" id="contact">
+	<div class="row">
+		<form action="thanks.html">
+			<div class="input-group">
+				<label for="first_name"> First Name </label>
+				<input type="text" id="first_name" class="form-control">
+			</div>
+			<div class="input-group">
+				<label for="last_name"> Last Name </label>
+				<input type="text" id="last_name" class="form-control">
+			</div>
+			<div class="input-group">
+				<label for="donation_money"> Credit Card details </label>
+				<input type="text" id="donation_money" class="form-control">
+				<br>
+			<button class="btn btn-primary"> Donate! </button>
+			</div>
+				<br>
+		</form>
+	</div>
+	</div>
+	<h3> What is on this website? </h3>
+	<ul>
+		<li> Dank memes </li>
+		<li> More dank memes </li>
+		<li> About Lord Pepe </li>
+		<li> Thomas the Dank Engine </li>
+	</ul>
+	<h3 id="contact"> Here are some memes (contacts) you may want to know: </h3> 
+		<ul>
+			<li> Lord Pepe </li>
+			<li> <em> Dat boi </em> </li>
+			<li> Doge </li>
+			<li> Shrek </li>
+			<li> Spoopy </li>
+			<li> Spongebob </li>
+		</ul>
+	<script src="scripts/jquery-3.0.0.min.js"> </script>
+	<script src="scripts/bootstrap.min.js"> </script>
+	<script>
+		$(document).ready(function() {
+			console.log('jQuery works');
+		})
+	</script>
 </body>
 
 </html>
